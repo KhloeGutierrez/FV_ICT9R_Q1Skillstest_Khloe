@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills test</title>
+    <style>
+        #OBMC{
+            height: 120px;
+            width: 120px;
+        }
+        body{
+            background-color: rgb(180, 180, 180);
+            font-family:'Courier New', Courier, monospace
+        }
+        .container{
+        background-color: #ffffff;
+    	padding: 20px;
+    	border-radius: 15px;
+    	width: 500px;
+    	margin: auto;
+    	box-shadow: 0 4px 10px rgba(7, 7, 7, 0.399);
+        text-align: center;
+        }
+        input[type="text"], select, textarea,
+        input[type="submit"]{
+        width: 94%;
+        padding: 15px;
+        border: 5px solid #95a0b6;
+    	border-radius: 10px;
+    	text-align: center;
+        font-family:'Courier New', Courier, monospace
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <img src="https://files.orangeapps.ph/disk001/School_Files/1/school-66/school_profile/1724046763-1128.png" alt="OBMC Logo" id="OBMC">
+            <h2>OBMC Robotics Club Application Form</h2>
+            <p>Welcome! Please fill out this form to apply for our school's Robotics Club.</p>
+            <br>
+           <label for="name">Full name:</label>
+           <br>
+           <input type="text" id="fname" name="fname" placeholder="Full name">
+            <br><br>
+           <label for="email">Email:</label>
+           <br>
+           <input type="text" id="email" name="email" placeholder="name@gmail.com.ph">
+           <br><br><br>
+           <label for="Grade Level:">Grade Level:</label>
+           <select name="Grade" id="Grade">
+                <option name="Grade" value="Grade 7">Grade 7</option>
+                <option name="Grade" value="Grade 8">Grade 8</option>
+                <option name="Grade" value="Grade 9">Grade 9</option>
+                <option name="Grade" value="Grade 10">Grade 10</option>
+           </select>
+           <br><br><br>
+           <label for="Gender:">Gender:</label>
+           <input type="radio" id="Female" name="Gender">Female
+           <input type="radio" id="Male" name="Gender">Male
+           <br><br><br>
+           <label for="What are your skills?">What are your skills?</label>
+           <br>
+           <input type="checkbox" id="coding" name="coding">
+           <label for="Coding">Coding</label>
+           <input type="checkbox" id="Design" name="Design">
+           <label for="Design">Design</label>
+           <input type="checkbox" id="Electronics" name="Electronics">
+           <label for="Electronics">Electronics</label>
+           <br><br><br>
+           <label for="Tell us why you want to join:">Tell us why you want to join:</label>
+           <br>
+           <textarea id="textbox" name="textbox" placeholder="Type your answer here..." rows="5" cols="40"></textarea>
+           <br><br><br>
+           <h2>Top Robotics Activities We Offer</h2>
+           <br>
+           <label for="• Line Following Robots">• Line Following Robots</label>
+           <br>
+           <label for="• Obstacle Avoidance Programming">• Obstacle Avoidance Programming</label>
+           <br>
+           <label for="• Light Following Robot">• Light Following Robot</label>
+           <br><br>
+           <h3>Helpful Links</h3>
+          <a href="https://www.nsf.gov/science-matters/robotics-engineering-future-intelligent-machines" target="_blank">How to get started in Programming for Robotics</a>
+           <br>
+           <a href="https://www.google.com/goto?url=CAESfQHrOzAVXoZOsnudLoXoQfRTWm0U0BF_21RL1Ccv4IgzQKybvwuAEmow9ZoSi2MUK82DfxX22hoIduPZ7F5qtO-ON4bMphcA7VAncTIoJddgs23FXplZvYjttpsRR_m_FGi5g_pDRnwWcSgLvI-ft-5qCGuuxg2UP5lFNR_3" target="_blank">Robotics: Engineering the future of intelligent machines</a>
+           <br><br>
+         <input type="submit" id="submit" name="submit" value="Submit Application">
+         <br>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
